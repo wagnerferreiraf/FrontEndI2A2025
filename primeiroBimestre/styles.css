@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    height: 400px;
+    width: 400px;
+}
+#divPai {
+    width: 800px;
+    border: 2px blue solid ;
+    position: relative;
+}
+
