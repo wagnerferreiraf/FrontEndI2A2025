@@ -1,0 +1,23 @@
+.ulMenu {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: rgb(194, 110, 0);
+    height: 100px;
+}
+
+a {
+    font-size: var(--tamanhoLink);
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: rgb(91, 52, 1);
+}

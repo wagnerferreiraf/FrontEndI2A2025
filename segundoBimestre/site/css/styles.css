@@ -1,0 +1,10 @@
+:root {
+    --corFundo: #ebebeb;
+    --tamanhoLink: 1.5rem;
+}
+
+
+body {
+    background-color: var(--corFundo);
+}
+
