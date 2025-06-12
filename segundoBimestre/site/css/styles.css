@@ -1,6 +1,7 @@
 :root {
     --corFundo: #ebebeb;
     --tamanhoLink: 1.5rem;
+    --tamanhoLinkMobile: 0.8rem;
 }
 
 
@@ -8,3 +9,44 @@ body {
     background-color: var(--corFundo);
 }
 
+h1 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #888;
+}
+.paisagem, .retrato {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    .paisagem {
+        display: block;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .retrato {
+        display: block;
+    }
+}
+
+@media screen and (min-width:601px) {
+    main {
+        min-height: calc(100vh - 16px - 100px);
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    main,
+    footer {
+        margin-left: 100px;
+    }
+
+    main {
+        min-height: calc(100vh - 16px);
+    }
+}

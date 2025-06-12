@@ -18,6 +18,38 @@ a {
     color: #fff;
 }
 
-a:hover{
+a:hover {
     color: rgb(91, 52, 1);
+}
+
+@media screen and (min-width: 601px) {
+    .imgMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        position: fixed;
+        width: 100px;
+        height: 100vh;
+    }
+
+    a {
+        font-size: var(--tamanhoLinkMobile);
+    }
+
+    .imgMobile {
+        display: inline;
+        width: 80px;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+    }
+}
+
+@media print {
+    header {
+        display: none;
+    }
 }
