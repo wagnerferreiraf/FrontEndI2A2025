@@ -48,7 +48,7 @@ a:hover {
     }
 }
 
-@media print {
+@media print { /* Regra para impressoras */
     header {
         display: none;
     }
