@@ -1,0 +1,25 @@
+.containerFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid;
+    border-radius: 3px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.ultimoCard {
+    flex-grow: 1;
+}
+
+img {
+    width: 400px;
+}
