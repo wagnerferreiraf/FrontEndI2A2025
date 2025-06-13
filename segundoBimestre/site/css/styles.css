@@ -20,6 +20,35 @@ footer {
     display: none;
 }
 
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: #aaa;
+}
+td, th {
+    border: 2px solid;
+    padding: 5px;
+}
+
+fieldset {
+    font-weight: bold;
+    width: 20vw;
+    color: #00e;
+    border: 1px solid #00e;
+    padding: 10px;
+    margin: 20px;
+}
+fieldset label {
+    font-weight: normal;
+}
+
+
+
+
+
+
+
 @media screen and (orientation: landscape) { /* Regra para janelas paisagem */
     .paisagem {
         display: block;
